@@ -1,0 +1,11 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: api-calling-scheduler
+
+application:
+  web-socket-messenger:
+    url: https://web-socket-chat-app-spring-boot.onrender.com
+    test-api-end-point: api/v1/test/hello-world
